@@ -1,0 +1,122 @@
+.agentes {
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.agente {
+     position: relative; position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+   background-color:#dd4c4c;  
+}
+.agente .detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.agente .name{
+    color: white;
+    margin-bottom: .25rem;
+    
+}
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: -30px;
+    margin-inline-end: -14px;
+    padding-inline-start: 40px;
+}
+
+.agente .detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.agente .detail .roles{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+.agente .detail .roles{
+    background-color: #d85a5a;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem 0;
+    font-size: .75rem;
+    border-radius: 1rem;
+    position: absolute;
+    top: 15%;
+    transform: translateY(-50%);
+    left: 138px;
+}
+.agente .detail .icon {
+    max-width: 50px;
+    height: auto;
+    position: absolute;
+    top: 86%;
+    transform: translateY(-106%);
+    left: 26px;
+}
+  
+  div {
+    display: block;
+}
+
+.agente .detail img{
+    max-width: 70%;
+    height: 74px;
+}
+@media screen and (min-width: 380px) {
+    .agentes{
+       grid-template-columns: 1fr 1fr ;}
+
+       .agente .detail .roles {
+       left: 91px;}
+
+       .agente .detail .icon {
+        left: 15px;
+   
+   
+    }
+   }
+@media screen and (min-width: 576px) {
+    .agentes{
+       grid-template-columns: 1fr 1fr 1fr ;}
+       .agente .detail .roles {
+        left: 148px;}
+ 
+        .agente .detail .icon {
+         left: 50px;
+       
+       
+   
+   
+    }
+   }
+@media screen and (min-width: 992px) {
+    .agentes{
+       grid-template-columns: 1fr 1fr 1fr 1fr; }
+       .agente .detail .icon {
+        left: 50px;
+   
+   
+    }
+   }
+
+
+
+
+
