@@ -7,7 +7,7 @@ function showAgentDetails(agent) {
   // Exibir as informações detalhadas do agente no layout desejado
   document.getElementById('agentName').textContent = agent.name;
   document.getElementById('agentPhoto').src = agent.photo;
-  // Outros elementos HTML para exibir informações adicionais do agente
+ 
 }
 
 // Chamada para obter os detalhes do agente correspondente ao ID

@@ -1,4 +1,3 @@
-// main2.js
 
 // Função para converter o agente em um item de lista HTML
 function covertAgenteToLi(agente) {
